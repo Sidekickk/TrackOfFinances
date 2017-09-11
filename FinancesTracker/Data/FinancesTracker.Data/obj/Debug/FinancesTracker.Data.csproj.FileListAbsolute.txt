@@ -1,0 +1,5 @@
+C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Data\FinancesTracker.Data\bin\Debug\FinancesTracker.Data.dll
+C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Data\FinancesTracker.Data\bin\Debug\FinancesTracker.Data.pdb
+C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Data\FinancesTracker.Data\obj\Debug\FinancesTracker.Data.csprojResolveAssemblyReference.cache
+C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Data\FinancesTracker.Data\obj\Debug\FinancesTracker.Data.dll
+C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Data\FinancesTracker.Data\obj\Debug\FinancesTracker.Data.pdb

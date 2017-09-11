@@ -1,0 +1,4 @@
+C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Data\FInancesTracker.Data.Models\FInancesTracker.Data.Models\bin\Debug\FInancesTracker.Data.Models.dll
+C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Data\FInancesTracker.Data.Models\FInancesTracker.Data.Models\bin\Debug\FInancesTracker.Data.Models.pdb
+C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Data\FInancesTracker.Data.Models\FInancesTracker.Data.Models\obj\Debug\FInancesTracker.Data.Models.dll
+C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Data\FInancesTracker.Data.Models\FInancesTracker.Data.Models\obj\Debug\FInancesTracker.Data.Models.pdb
