@@ -3,3 +3,14 @@ C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Data\Finances
 C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Data\FinancesTracker.Data\obj\Debug\FinancesTracker.Data.csprojResolveAssemblyReference.cache
 C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Data\FinancesTracker.Data\obj\Debug\FinancesTracker.Data.dll
 C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Data\FinancesTracker.Data\obj\Debug\FinancesTracker.Data.pdb
+C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Data\FinancesTracker.Data\bin\Debug\FinancesTracker.Data.dll.config
+C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Data\FinancesTracker.Data\bin\Debug\EntityFramework.dll
+C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Data\FinancesTracker.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Data\FinancesTracker.Data\bin\Debug\FInancesTracker.Data.Models.dll
+C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Data\FinancesTracker.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Data\FinancesTracker.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Data\FinancesTracker.Data\bin\Debug\FInancesTracker.Data.Models.pdb
+C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Data\FinancesTracker.Data\bin\Debug\EntityFramework.xml
+C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Data\FinancesTracker.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Data\FinancesTracker.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Data\FinancesTracker.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml

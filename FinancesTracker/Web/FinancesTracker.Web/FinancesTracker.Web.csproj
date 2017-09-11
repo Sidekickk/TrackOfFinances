@@ -161,9 +161,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\BindingModels\AddExternalLoginBindingModel.cs" />
+    <Compile Include="Models\BindingModels\ChangePasswordBindingModel.cs" />
+    <Compile Include="Models\BindingModels\RegisterBindingModel.cs" />
+    <Compile Include="Models\BindingModels\RegisterExternalBindingModel.cs" />
+    <Compile Include="Models\BindingModels\RemoveLoginBindingModel.cs" />
+    <Compile Include="Models\BindingModels\SetPasswordBindingModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
     <Compile Include="Results\ChallengeResult.cs" />
@@ -185,6 +189,17 @@
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Data\FInancesTracker.Data.Models\FInancesTracker.Data.Models\FInancesTracker.Data.Models.csproj">
+      <Project>{315c1fe0-7967-47b1-a79f-5255d0b25f3b}</Project>
+      <Name>FInancesTracker.Data.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Data\FinancesTracker.Data\FinancesTracker.Data.csproj">
+      <Project>{700ef836-bcf7-4bee-aae3-78cf67dd26c9}</Project>
+      <Name>FinancesTracker.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -51,3 +51,7 @@ C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Web\FinancesT
 C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Web\FinancesTracker.Web\bin\System.Web.Http.Owin.xml
 C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Web\FinancesTracker.Web\obj\Debug\FinancesTracker.Web.dll
 C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Web\FinancesTracker.Web\obj\Debug\FinancesTracker.Web.pdb
+C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Web\FinancesTracker.Web\bin\FinancesTracker.Data.dll
+C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Web\FinancesTracker.Web\bin\FInancesTracker.Data.Models.dll
+C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Web\FinancesTracker.Web\bin\FInancesTracker.Data.Models.pdb
+C:\Users\sidekick\Documents\GitHub\FinancesTracker\FinancesTracker\Web\FinancesTracker.Web\bin\FinancesTracker.Data.pdb
