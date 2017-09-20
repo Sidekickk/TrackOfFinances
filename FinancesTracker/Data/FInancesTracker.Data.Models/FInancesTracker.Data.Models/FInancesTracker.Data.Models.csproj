@@ -7,7 +7,7 @@
     <ProjectGuid>{315C1FE0-7967-47B1-A79F-5255D0B25F3B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FInancesTracker.Data.Models</RootNamespace>
+    <RootNamespace>FinancesTracker.Data.Models</RootNamespace>
     <AssemblyName>FInancesTracker.Data.Models</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -39,6 +39,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -49,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tags.cs" />
     <Compile Include="User.cs" />
   </ItemGroup>
   <ItemGroup>
