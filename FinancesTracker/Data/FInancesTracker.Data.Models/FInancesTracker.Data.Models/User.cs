@@ -9,11 +9,13 @@
 
     public class User : IdentityUser
     {
-        private ICollection<Tags> tags;
+        private ICollection<Tag> tags;
+        private ICollection<AmountOfMoney> amountsOfMoney;
 
         public User()
         {
-            this.tags = new HashSet<Tags>();
+            this.tags = new HashSet<Tag>();
+            this.amountsOfMoney = new HashSet<AmountOfMoney>();
         }
 
         [MaxLength(100)]
@@ -22,10 +24,18 @@
         [MaxLength(100)]
         public string LastName { get; set; }
 
-        public virtual ICollection<Tags> Tags
+        public long TotalAmountOfMoneySpent { get; set; }
+
+        public virtual ICollection<Tag> Tags
         {
             get { return this.tags; }
             set { this.tags = value; }
+        }
+
+        public virtual ICollection<AmountOfMoney> AmountsOfMoney
+        {
+            get { return this.amountsOfMoney; }
+            set { this.amountsOfMoney = value; }
         }
 
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<User> manager, string authenticationType)
