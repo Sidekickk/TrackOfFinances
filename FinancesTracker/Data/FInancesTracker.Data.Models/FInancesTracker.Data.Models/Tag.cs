@@ -6,12 +6,12 @@
     public class Tag
     {
         private ICollection<User> users;
-        private ICollection<AmountOfMoney> amountsOfMoney;
+        private ICollection<Expense> expenses;
 
         public Tag()
         {
             this.users = new HashSet<User>();
-            this.amountsOfMoney = new HashSet<AmountOfMoney>();
+            this.expenses = new HashSet<Expense>();
         }
 
         [Key]
@@ -30,10 +30,10 @@
             set { this.users = value; }
         }
 
-        public virtual ICollection<AmountOfMoney> AmountsOfMoney
+        public virtual ICollection<Expense> Expenses
         {
-            get { return this.amountsOfMoney; }
-            set { this.amountsOfMoney = value; }
+            get { return this.expenses; }
+            set { this.expenses = value; }
         }
     }
 }

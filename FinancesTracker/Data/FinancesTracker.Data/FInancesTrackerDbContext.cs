@@ -3,8 +3,9 @@
     using Microsoft.AspNet.Identity.EntityFramework;
     using System.Data.Entity;
     using FinancesTracker.Data.Models;
+    using Contracts;
 
-    public class FinancesTrackerDbContext : IdentityDbContext<User>
+    public class FinancesTrackerDbContext : IdentityDbContext<User> , IFinancesTrackerDbContext
     {
         public FinancesTrackerDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
@@ -13,7 +14,7 @@
 
         public virtual DbSet<Tag> Tags { get; set; }
 
-        public virtual DbSet<AmountOfMoney> AmountsOfMoney { get; set; }
+        public virtual DbSet<Expense> Expenses { get; set; }
 
         public static FinancesTrackerDbContext Create()
         {

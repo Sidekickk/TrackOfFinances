@@ -10,12 +10,12 @@
     public class User : IdentityUser
     {
         private ICollection<Tag> tags;
-        private ICollection<AmountOfMoney> amountsOfMoney;
+        private ICollection<Expense> expenses;
 
         public User()
         {
             this.tags = new HashSet<Tag>();
-            this.amountsOfMoney = new HashSet<AmountOfMoney>();
+            this.expenses = new HashSet<Expense>();
         }
 
         [MaxLength(100)]
@@ -32,10 +32,10 @@
             set { this.tags = value; }
         }
 
-        public virtual ICollection<AmountOfMoney> AmountsOfMoney
+        public virtual ICollection<Expense> Expenses
         {
-            get { return this.amountsOfMoney; }
-            set { this.amountsOfMoney = value; }
+            get { return this.expenses; }
+            set { this.expenses = value; }
         }
 
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<User> manager, string authenticationType)

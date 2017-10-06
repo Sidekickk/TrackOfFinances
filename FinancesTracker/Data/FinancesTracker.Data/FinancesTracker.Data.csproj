@@ -57,7 +57,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FInancesTrackerDbContext.cs" />
+    <Compile Include="Contracts\IFinancesTrackerDbContext.cs" />
+    <Compile Include="Contracts\IRepository.cs" />
+    <Compile Include="EfGenericRepository.cs" />
+    <Compile Include="FinancesTrackerDbContext.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
