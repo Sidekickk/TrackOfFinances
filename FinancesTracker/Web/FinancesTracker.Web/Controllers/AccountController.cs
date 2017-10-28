@@ -1,4 +1,4 @@
-﻿namespace FinancesTracker.Web.Controllers
+﻿    namespace FinancesTracker.Web.Controllers
 {
     using System;
     using System.Collections.Generic;
